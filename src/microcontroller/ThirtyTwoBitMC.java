@@ -24,7 +24,7 @@ public class ThirtyTwoBitMC extends Electronic {
 	@Override
 	public String toString() {
 		
-		return "For" + device + "," + name + "," + maker + "," + power + "V";
+		return "For" + device + "," + name + "," + maker + "." + power + "V";
 	}
 
 }
