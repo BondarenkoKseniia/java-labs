@@ -3,10 +3,10 @@ package microcontroller;
 public class Electronic {
 	
 	protected String name;
-	protected Maker maker;
+	protected String maker;
 	protected int power;
 	
-	public Electronic(String name, Maker maker, int power) {
+	public Electronic(String name, String maker, int power) {
 		
 		this.name = name;
 		this.maker = maker;
@@ -23,12 +23,12 @@ public class Electronic {
 		this.name = name;
 	}
 	
-	public Maker getMaker() {
+	public String getMaker() {
 		
 		return maker;
 	}
 	
-	public void setMaker(Maker maker) {
+	public void setMaker(String maker) {
 		
 		this.maker = maker;
 	}

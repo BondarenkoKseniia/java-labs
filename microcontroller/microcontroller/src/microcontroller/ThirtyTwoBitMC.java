@@ -4,7 +4,7 @@ public class ThirtyTwoBitMC extends Electronic {
 	
 	private String device;
 	
-	public ThirtyTwoBitMC(String device, String name, Maker maker, int power) {
+	public ThirtyTwoBitMC(String device, String name, String maker, int power) {
 		
 		super(name, maker, power);
 		
@@ -24,7 +24,7 @@ public class ThirtyTwoBitMC extends Electronic {
 	@Override
 	public String toString() {
 		
-		return "For" + device + "," + name + "," + maker + "," + power + "V";
+		return "For" + device + "," + name + "," + maker + "." + power + "V";
 	}
 
 }
