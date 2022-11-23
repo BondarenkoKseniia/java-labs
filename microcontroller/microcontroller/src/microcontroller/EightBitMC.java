@@ -4,7 +4,7 @@ public class EightBitMC extends Electronic {
 	
 	private int price;
 	
-	public EightBitMC(int price, String name, Maker maker, int power) {
+	public EightBitMC(int price, String name, String maker, int power) {
 		
 		super(name, maker, power);
 		

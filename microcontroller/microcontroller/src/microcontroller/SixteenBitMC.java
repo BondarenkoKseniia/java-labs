@@ -4,7 +4,7 @@ public class SixteenBitMC extends Electronic {
 	
 	private String appointment;
 	
-	public SixteenBitMC(String appointment, String name, Maker maker, int power) {
+	public SixteenBitMC(String appointment, String name, String maker, int power) {
 		
 		super(name, maker, power);
 		
